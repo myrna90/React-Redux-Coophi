@@ -5,7 +5,6 @@
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
-    "homepage": "https://myrna90.github.io/redux-react",
     "react": "^16.9.0",
     "react-bootstrap": "^1.0.0-beta.11",
     "react-dom": "^16.9.0",
@@ -31,11 +30,23 @@
       "not dead",
       "not op_mini all"
     ],
-
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "Proyecto Coophi realizado con React y Redux",
+  "main": "service-worker.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myrna90/redux-react.git"
+  },
+  "author": "myrna90",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myrna90/redux-react/issues"
+  },
+  "homepage": "https://github.com/myrna90/redux-react#readme"
 }
