@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
-    "homepage": "https://redux.github.io"
+    "homepage": "https://myrna90.github.io/redux-react"
   },
   "eslintConfig": {
     "extends": "react-app"
