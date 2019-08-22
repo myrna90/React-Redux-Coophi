@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/myrna90/redux-react/static/css/main.622262fc.chunk.css",
-    "main.js": "/myrna90/redux-react/static/js/main.dd3d2995.chunk.js",
-    "main.js.map": "/myrna90/redux-react/static/js/main.dd3d2995.chunk.js.map",
-    "runtime~main.js": "/myrna90/redux-react/static/js/runtime~main.17793aa5.js",
-    "runtime~main.js.map": "/myrna90/redux-react/static/js/runtime~main.17793aa5.js.map",
-    "static/js/2.93dda6ae.chunk.js": "/myrna90/redux-react/static/js/2.93dda6ae.chunk.js",
-    "static/js/2.93dda6ae.chunk.js.map": "/myrna90/redux-react/static/js/2.93dda6ae.chunk.js.map",
-    "index.html": "/myrna90/redux-react/index.html",
-    "precache-manifest.932fc7353f1c74c49e031a9c4730bcfd.js": "/myrna90/redux-react/precache-manifest.932fc7353f1c74c49e031a9c4730bcfd.js",
-    "service-worker.js": "/myrna90/redux-react/service-worker.js",
-    "static/css/main.622262fc.chunk.css.map": "/myrna90/redux-react/static/css/main.622262fc.chunk.css.map"
+    "main.css": "/redux-react/static/css/main.622262fc.chunk.css",
+    "main.js": "/redux-react/static/js/main.8ebb9468.chunk.js",
+    "main.js.map": "/redux-react/static/js/main.8ebb9468.chunk.js.map",
+    "runtime~main.js": "/redux-react/static/js/runtime~main.14aaa5c5.js",
+    "runtime~main.js.map": "/redux-react/static/js/runtime~main.14aaa5c5.js.map",
+    "static/js/2.93dda6ae.chunk.js": "/redux-react/static/js/2.93dda6ae.chunk.js",
+    "static/js/2.93dda6ae.chunk.js.map": "/redux-react/static/js/2.93dda6ae.chunk.js.map",
+    "index.html": "/redux-react/index.html",
+    "precache-manifest.f266577ddd9742e96161d59590b0b8fb.js": "/redux-react/precache-manifest.f266577ddd9742e96161d59590b0b8fb.js",
+    "service-worker.js": "/redux-react/service-worker.js",
+    "static/css/main.622262fc.chunk.css.map": "/redux-react/static/css/main.622262fc.chunk.css.map"
   }
 }
