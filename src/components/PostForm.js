@@ -25,20 +25,20 @@ class PostForm extends React.Component{
     }
  render(){
      return(
-         <div>
+        <div>
           <h1>Create Post</h1>
             <Form onSubmit={this.handleSubmit}>
-             <Form.Label>Titulo</Form.Label>
-             <Form.Control required type="text" ref={(input)=>this.getTitle=input}
-                 placeholder="Enter Post Title" />
+             <Form.Label>Title</Form.Label>
+              <Form.Control required type="text" ref={(input)=>this.getTitle=input}
+                placeholder="Enter Post Title" />
             <br/>
              <Form.Label>Description</Form.Label>
-             <Form.Control required type="text" ref={(input)=>this.getDescription =input} cols="28" 
+              <Form.Control required type="text" ref={(input)=>this.getDescription =input} cols="28" 
                 placeholder="Enter Post" />
             <br/>
-              <Button variant="primary" type="submit">Post</Button>
+             <Button variant="primary" type="submit">Post</Button>
             </Form>
-         </div>
+        </div>
      )
  }
 }
