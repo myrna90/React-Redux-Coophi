@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build",
-    "homepage": "https://myrna90.github.io/React-Redux-Coophi"
+    "homepage": "https://redux.github.io"
   },
   "eslintConfig": {
     "extends": "react-app"
