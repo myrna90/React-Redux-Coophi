@@ -8,13 +8,13 @@ import AllPost from './AllPost';
 class Home extends React.Component{
     render(){
         return(
-        <div style={{width: "100%", margin: "auto"}}>
+        <div style={{width: "100%", height:"100%", margin: "auto"}}>
            <Container className="home-container">
             <Row>
-              <Col xs={4}>
+              <Col xs={6} className="home-post">
               <PostForm/>
               </Col>
-              <Col xs={4}>
+              <Col xs={6} className="home-post">
               <AllPost/>
               </Col>
             </Row>
