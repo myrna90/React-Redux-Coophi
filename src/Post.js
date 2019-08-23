@@ -12,8 +12,8 @@ class Post extends React.Component{
              <div>
              <Button onClick={()=>this.props.dispatch({type:'EDIT_POST', id:this.props.post.id})} 
                 variant="info">Edit</Button>
-               <Button onClick={()=>this.props.dispatch({type:'DELETE_POST', id:this.props.post.id})} 
-               variant="danger">Delete</Button> 
+             <Button onClick={()=>this.props.dispatch({type:'DELETE_POST', id:this.props.post.id})} 
+               variant="warning">Delete</Button> 
              </div>
                  
             </div>

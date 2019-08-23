@@ -36,7 +36,7 @@ class PostForm extends React.Component{
               <Form.Control required type="text" ref={(input)=>this.getDescription =input} cols="28" 
                 placeholder="Enter Post" />
             <br/>
-             <Button variant="primary" type="submit">Post</Button>
+             <Button variant="info" type="submit">Post</Button>
             </Form>
         </div>
      )

@@ -1,7 +1,3 @@
-.App{
-
-}
-
 .home-container{
   text-align: center;
   top: auto;
@@ -15,8 +11,17 @@
   justify-content: center;
   background: whitesmoke;
   color: black;
-  border: .4em solid #256d7b;
+  border: .4em solid #8c8c8c;
   margin-bottom: 1.5em;
   height: 45em;
+}
+
+.conteiner_all{
+  text-align: center;
+  justify-content: center;
+  background: whitesmoke;
+  color: black;
+  border: .4em solid #8c8c8c;
+  margin-bottom: 1.5em;
 }
 
