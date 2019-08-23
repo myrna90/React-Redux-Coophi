@@ -11,8 +11,6 @@ function App() {
       <HashRouter>
        <Switch>
         <Route exact path ="/" component={Home}/>
-        <Route path ="/PostForm" component={PostForm}/>
-        <Route path ="/AllPost" component={AllPost}/>
        </Switch>
       </HashRouter>        
     </div>
