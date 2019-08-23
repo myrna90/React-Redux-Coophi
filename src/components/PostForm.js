@@ -15,7 +15,7 @@ class PostForm extends React.Component{
             description,
             editing: false
         }
-    
+    console.log(data);
             this.props.dispatch({
                 type:'ADD_POST',
                 data});
@@ -26,17 +26,17 @@ class PostForm extends React.Component{
  render(){
      return(
         <div>
-          <h1>Create Post</h1>
+          <h1>Crear nuevo elemento</h1>
             <Form onSubmit={this.handleSubmit}>
-             <Form.Label>Title</Form.Label>
+             <Form.Label>Titulo</Form.Label>
               <Form.Control required type="text" ref={(input)=>this.getTitle=input}
-                placeholder="Enter Post Title" />
+                placeholder="Titulo elemento" />
             <br/>
-             <Form.Label>Description</Form.Label>
-              <Form.Control required type="text" ref={(input)=>this.getDescription =input} cols="28" 
-                placeholder="Enter Post" />
+             <Form.Label>Descripción</Form.Label>
+              <Form.Control style={{height:"10em"}} required type="text" ref={(input)=>this.getDescription =input} cols="28" 
+                placeholder="Descripción elemento" />
             <br/>
-             <Button variant="info" type="submit">Post</Button>
+             <Button variant="info" type="submit">Crear</Button>
             </Form>
         </div>
      )

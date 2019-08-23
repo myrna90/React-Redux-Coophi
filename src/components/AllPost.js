@@ -7,14 +7,14 @@ class AllPost extends Component {
     render() {
         return (
             <div>
-            <h1>Views</h1>
+            <h1>Vistas</h1>
              <div className="conteiner_all">
                 {this.props.posts.map((post) => (
                 <div key={post.id}>
                 {post.editing ? <EditComponent post={post} key={post.id} /> : <Post post={post}
                 key={post.id} />}
              </div>
-  ))}
+                ))}
              </div>
               
             </div>
