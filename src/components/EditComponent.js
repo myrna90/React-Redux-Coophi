@@ -17,18 +17,18 @@ class EditComponent extends React.Component{
     render(){
         return(
             <div>
-                <h1>Edit port</h1>
-                <Form onSubmit={this.handleEdit}>
+            <h1>Editar elemento</h1>
+            <Form onSubmit={this.handleEdit}>
              <Form.Label>Titulo</Form.Label>
              <Form.Control required type="text" ref={(input)=>this.getTitle=input}
                defaultValue={this.props.post.title}  placeholder="Enter Post Edit" />
             <br/>
-             <Form.Label>Description</Form.Label>
+             <Form.Label>Descripción</Form.Label>
              <Form.Control required type="text" ref={(input)=>this.getDescription =input} 
              defaultValue={this.props.post.description} cols="28" 
                 placeholder="Enter Post Edit" />
             <br/>
-              <Button variant="primary" type="submit">Update</Button>
+              <Button variant="primary" type="submit">Subir Cambio</Button>
             </Form>
             </div>
         )
